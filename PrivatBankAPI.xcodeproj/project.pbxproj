@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		8720FC451EA8AD70009CC564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8720FC441EA8AD70009CC564 /* AppDelegate.swift */; };
-		8720FC471EA8AD70009CC564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8720FC461EA8AD70009CC564 /* ViewController.swift */; };
 		8720FC4A1EA8AD70009CC564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8720FC481EA8AD70009CC564 /* Main.storyboard */; };
 		8720FC4C1EA8AD70009CC564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8720FC4B1EA8AD70009CC564 /* Assets.xcassets */; };
 		8720FC4F1EA8AD70009CC564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8720FC4D1EA8AD70009CC564 /* LaunchScreen.storyboard */; };
+		8720FC581EA8AE4E009CC564 /* ATMTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8720FC571EA8AE4E009CC564 /* ATMTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8720FC411EA8AD70009CC564 /* PrivatBankAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivatBankAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8720FC441EA8AD70009CC564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8720FC461EA8AD70009CC564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8720FC491EA8AD70009CC564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8720FC4B1EA8AD70009CC564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8720FC4E1EA8AD70009CC564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8720FC501EA8AD70009CC564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8720FC571EA8AE4E009CC564 /* ATMTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATMTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,22 @@
 		8720FC431EA8AD70009CC564 /* PrivatBankAPI */ = {
 			isa = PBXGroup;
 			children = (
-				8720FC441EA8AD70009CC564 /* AppDelegate.swift */,
-				8720FC461EA8AD70009CC564 /* ViewController.swift */,
+				8720FC571EA8AE4E009CC564 /* ATMTableViewController.swift */,
 				8720FC481EA8AD70009CC564 /* Main.storyboard */,
+				8720FC561EA8ADA0009CC564 /* Supporting Files */,
+			);
+			path = PrivatBankAPI;
+			sourceTree = "<group>";
+		};
+		8720FC561EA8ADA0009CC564 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8720FC441EA8AD70009CC564 /* AppDelegate.swift */,
 				8720FC4B1EA8AD70009CC564 /* Assets.xcassets */,
 				8720FC4D1EA8AD70009CC564 /* LaunchScreen.storyboard */,
 				8720FC501EA8AD70009CC564 /* Info.plist */,
 			);
-			path = PrivatBankAPI;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8720FC471EA8AD70009CC564 /* ViewController.swift in Sources */,
+				8720FC581EA8AE4E009CC564 /* ATMTableViewController.swift in Sources */,
 				8720FC451EA8AD70009CC564 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
